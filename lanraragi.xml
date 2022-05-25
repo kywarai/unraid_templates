@@ -24,6 +24,6 @@
   <DonateLink/>
   <Requires/>
   <Config Name="Database" Target="/home/koyomi/lanraragi/database" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/lanraragi/database/</Config>
-  <Config Name="Content" Target="/home/koyomi/lanraragi/content" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/Private/Manga/</Config>
+  <Config Name="Content" Target="/home/koyomi/lanraragi/content" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/Manga/</Config>
   <Config Name="WebUI" Target="3000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">3000</Config>
 </Container>
