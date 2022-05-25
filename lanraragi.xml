@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>LANraragi</Name>
+  <Repository>difegue/lanraragi:latest</Repository>
+  <Registry>https://hub.docker.com/r/difegue/lanraragi</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/Difegue/LANraragi</Project>
+  <Overview>Open source server for archival of comics/manga, running on Mojolicious + Redis.&#xD;
+&#xD;
+</Overview>
+  <Category>MediaServer:Books MediaServer:Photos MediaServer:Other Status:Stable</Category>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/Difegue/LANraragi/raw/dev/public/favicon.ico</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1653488413</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Database" Target="/home/koyomi/lanraragi/database" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/lanraragi/database/</Config>
+  <Config Name="Content" Target="/home/koyomi/lanraragi/content" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/Private/Manga/</Config>
+  <Config Name="WebUI" Target="3000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">3000</Config>
+</Container>
