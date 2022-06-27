@@ -11,6 +11,8 @@
   <Project>https://github.com/Difegue/LANraragi</Project>
   <Overview>Open source server for archival of comics/manga, running on Mojolicious + Redis.&#xD;
 &#xD;
+    
+    Make sure that content folder able to write.
 </Overview>
   <Category>MediaServer:Books MediaServer:Photos MediaServer:Other Status:Stable</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
