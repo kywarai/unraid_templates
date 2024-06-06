@@ -9,10 +9,9 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://github.com/Difegue/LANraragi</Project>
-  <Overview>Open source server for archival of comics/manga, running on Mojolicious + Redis.&#xD;
-&#xD;
-    
-    Make sure that content folder able to write.
+  <Overview>
+    Web application for archival and reading of manga/doujinshi. Lightweight and Docker-ready for NAS/servers.
+    * If you encounter an error while uploading files, please make sure the content folder has write permissions *
 </Overview>
   <Category>MediaServer:Books MediaServer:Photos MediaServer:Other Status:Stable</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
