@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>LANraragi</Name>
-  <Repository>difegue/lanraragi:latest</Repository>
+  <Repository>difegue/lanraragi</Repository>
   <Registry>https://hub.docker.com/r/difegue/lanraragi</Registry>
   <Network>bridge</Network>
   <MyIP/>
@@ -9,6 +9,15 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://github.com/Difegue/LANraragi</Project>
+  <Branch>
+        <Tag>latest</Tag>
+        <TagDescription>Stable releases</TagDescription>
+  </Branch>
+  <Branch>
+        <Tag>nightly</Tag>
+        <TagDescription>Development releases</TagDescription>
+        <GitHub>https://github.com/Difegue/LANraragi/tree/dev</GitHub>
+  </Branch>
   <Overview>
     Web application for archival and reading of manga/doujinshi. Lightweight and Docker-ready for NAS/servers.
     * If you encounter an error while uploading files, please make sure the content folder has write permissions *
